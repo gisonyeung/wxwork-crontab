@@ -1,0 +1,30 @@
+{
+  "name": "wxwork-crontab",
+  "version": "1.0.0",
+  "description": "企业微信机器人定时消息服务，使用Node&Redis搭建，支持前端页面可视化配置定时任务以及发送即时消息。",
+  "main": "./server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gisonyeung/wxwork-crontab.git"
+  },
+  "keywords": [
+    "wxword",
+    "robot",
+    "crontab"
+  ],
+  "author": "gisonyeung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gisonyeung/wxwork-crontab/issues"
+  },
+  "homepage": "https://github.com/gisonyeung/wxwork-crontab#readme",
+  "dependencies": {
+    "compression": "^1.7.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "redis": "^2.8.0"
+  }
+}
